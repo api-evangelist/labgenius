@@ -1,19 +1,50 @@
 aid: labgenius
-name: LabGenius
-description: LabGenius is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: LabGenius Therapeutics
+description: LabGenius Therapeutics is a London-based drug discovery company that combines machine
+  learning, high-throughput robotic experimentation and synthetic biology to discover and co-optimise
+  next-generation therapeutic antibodies for solid tumours. Its EVA (Experimental Vector Automation)
+  platform is a closed-loop, modality-agnostic discovery engine that runs a design-build-test-learn
+  cycle in under six weeks — computationally designing multispecific antibodies in the dry lab, then
+  cloning, expressing, purifying and functionally screening up to 2,300 multispecifics per cycle in an
+  automated wet lab, and feeding the resulting proprietary data back into multi-objective ML models.
+  The company operates a wholly-owned pipeline of selectivity-enhanced T-cell engagers alongside
+  partnered antibody-optimisation programmes with Sanofi. LabGenius is a pre-clinical therapeutics
+  company and publishes no public developer API, developer portal, or SDKs; this profile captures its
+  public web and machine-readable surface only.
 url: https://raw.githubusercontent.com/api-evangelist/labgenius/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - obvious-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://labgeniustx.com/wp-content/uploads/2025/01/labgenius-homepage-sharing.jpeg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Therapeutics
+- Antibodies
+- Machine Learning
+- Artificial Intelligence
+- Life Sciences
+- Oncology
+- Laboratory Automation
+- Synthetic Biology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,41 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://labgeni.us
+  url: https://labgeniustx.com/
+- type: Blog
+  url: https://labgeniustx.com/news/
+- type: BlogRSS
+  url: https://labgeniustx.com/feed/
+- type: Support
+  url: https://labgeniustx.com/contact-us/
+- type: TermsOfService
+  url: https://labgeniustx.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://labgeniustx.com/privacy-policy/
+- type: Careers
+  url: https://labgeniustx.com/careers/
+- type: Team
+  url: https://labgeniustx.com/team
+- type: Technology
+  url: https://labgeniustx.com/technology/
+- type: Partnerships
+  url: https://labgeniustx.com/partnerships/
+- type: Pipeline
+  url: https://labgeniustx.com/pipeline/
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/labgeniustx
+- type: Twitter
+  url: https://x.com/labgeni_us
+- type: Bluesky
+  url: https://bsky.app/profile/labgeniustx.bsky.social
+- type: LLMsTxt
+  url: llms/labgenius-llms.txt
+- type: WellKnown
+  url: well-known/labgenius-well-known.yml
+- type: DomainSecurity
+  url: security/labgenius-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

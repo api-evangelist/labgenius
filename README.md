@@ -64,22 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LabGenius Therapeutics is a London-based drug discovery company that combines machine learning, high-throughput robotic experimentation and synthetic biology to discover and co-optimise next-generation therapeutic antibodies for solid tumours.
+LabGenius Therapeutics is a London-based drug discovery company that combines machine learning, high-throughput robotic experimentation and synthetic biology to discover and co-optimise next-generation therapeutic antibodies for solid tumours. Its EVA (Experimental Vector Automation) platform is a closed-loop, modality-agnostic discovery engine that runs a design-build-test-learn cycle in under six weeks — computationally designing multispecific antibodies in the dry lab, then cloning, expressing, purifying and functionally screening up to 2,300 multispecifics per cycle in an automated wet lab, and feeding the resulting proprietary data back into multi-objective ML models. The company operates a wholly-owned pipeline of selectivity-enhanced T-cell engagers alongside partnered antibody-optimisation programmes with Sanofi. LabGenius is a pre-clinical therapeutics company and publishes no public developer API, developer portal, or SDKs; this profile captures its public web and machine-readable surface only.
 
-Its EVA™ platform is a closed-loop, modality-agnostic discovery engine running a design-build-test-learn cycle in under six weeks — computationally designing multispecific antibodies in the dry lab, then cloning, expressing, purifying and functionally screening up to 2,300 multispecifics per cycle in an automated wet lab, and feeding the resulting proprietary data back into multi-objective ML models. The company holds a wholly-owned pipeline of selectivity-enhanced T-cell engagers alongside partnered antibody-optimisation programmes with Sanofi.
+**Areas:** Company · Biotechnology · Drug Discovery · Therapeutics · Antibodies · Machine Learning · Artificial Intelligence · Life Sciences · Oncology · Laboratory Automation · Synthetic Biology
 
-**No public API.** LabGenius is a pre-clinical therapeutics company. It publishes no developer portal, API reference, SDKs, or OpenAPI. This profile captures its public web and machine-readable surface only.
+## LabGenius Therapeutics on APIs.io
 
-- Website: https://labgeniustx.com/ (the original `labgeni.us` domain now 301s here)
-- Technology (EVA™ platform): https://labgeniustx.com/technology/
-- Pipeline: https://labgeniustx.com/pipeline/
-- News: https://labgeniustx.com/news/
-- Backed by: Obvious Ventures, M Ventures, Atomico, Kindred Capital, Lux Capital, Octopus Ventures, LG Corp
+Everything profiled for LabGenius Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/labgenius/](https://apis.io/providers/labgenius/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File | Method |
-|---|---|---|
-| llms.txt | `llms/labgenius-llms.txt` | searched (verbatim from `/llms.txt`) |
-| Well-Known index | `well-known/labgenius-well-known.yml` | searched (all `/.well-known/*` 404) |
-| Domain security | `security/labgenius-domain-security.yml` | probed |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Labgenius Domain Security](https://apis.io/security/labgenius/labgenius-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://labgeniustx.com/)
+- [Support](https://labgeniustx.com/contact-us/)
+- [Blog](https://labgeniustx.com/news/)
+- [Terms of service](https://labgeniustx.com/terms-of-use/)
+- [Privacy policy](https://labgeniustx.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/labgenius/](https://apis.io/providers/labgenius/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LabGenius Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/labgenius/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
